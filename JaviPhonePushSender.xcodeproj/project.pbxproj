@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F26E531816248D000F910F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E521816248D000F910F /* Cocoa.framework */; };
+		D0F26E5D1816248D000F910F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E5B1816248D000F910F /* InfoPlist.strings */; };
+		D0F26E5F1816248D000F910F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E5E1816248D000F910F /* main.m */; };
+		D0F26E631816248D000F910F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E611816248D000F910F /* Credits.rtf */; };
+		D0F26E661816248D000F910F /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E651816248D000F910F /* JSAppDelegate.m */; };
+		D0F26E691816248D000F910F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E671816248D000F910F /* MainMenu.xib */; };
+		D0F26E6B1816248D000F910F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E6A1816248D000F910F /* Images.xcassets */; };
+		D0F26E721816248D000F910F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E711816248D000F910F /* XCTest.framework */; };
+		D0F26E731816248D000F910F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E521816248D000F910F /* Cocoa.framework */; };
+		D0F26E7B1816248D000F910F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E791816248D000F910F /* InfoPlist.strings */; };
+		D0F26E7D1816248D000F910F /* JaviPhonePushSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E7C1816248D000F910F /* JaviPhonePushSenderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F26E741816248D000F910F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F26E471816248D000F910F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F26E4E1816248D000F910F;
+			remoteInfo = JaviPhonePushSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F26E4F1816248D000F910F /* JaviPhonePushSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaviPhonePushSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F26E521816248D000F910F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0F26E551816248D000F910F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0F26E561816248D000F910F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0F26E571816248D000F910F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0F26E5A1816248D000F910F /* JaviPhonePushSender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JaviPhonePushSender-Info.plist"; sourceTree = "<group>"; };
+		D0F26E5C1816248D000F910F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F26E5E1816248D000F910F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F26E601816248D000F910F /* JaviPhonePushSender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JaviPhonePushSender-Prefix.pch"; sourceTree = "<group>"; };
+		D0F26E621816248D000F910F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D0F26E641816248D000F910F /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		D0F26E651816248D000F910F /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		D0F26E681816248D000F910F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0F26E6A1816248D000F910F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0F26E701816248D000F910F /* JaviPhonePushSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaviPhonePushSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F26E711816248D000F910F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0F26E781816248D000F910F /* JaviPhonePushSenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JaviPhonePushSenderTests-Info.plist"; sourceTree = "<group>"; };
+		D0F26E7A1816248D000F910F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F26E7C1816248D000F910F /* JaviPhonePushSenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JaviPhonePushSenderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F26E4C1816248D000F910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E531816248D000F910F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F26E6D1816248D000F910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E731816248D000F910F /* Cocoa.framework in Frameworks */,
+				D0F26E721816248D000F910F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F26E461816248D000F910F = {
+			isa = PBXGroup;
+			children = (
+				D0F26E581816248D000F910F /* JaviPhonePushSender */,
+				D0F26E761816248D000F910F /* JaviPhonePushSenderTests */,
+				D0F26E511816248D000F910F /* Frameworks */,
+				D0F26E501816248D000F910F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F26E501816248D000F910F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E4F1816248D000F910F /* JaviPhonePushSender.app */,
+				D0F26E701816248D000F910F /* JaviPhonePushSenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F26E511816248D000F910F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E521816248D000F910F /* Cocoa.framework */,
+				D0F26E711816248D000F910F /* XCTest.framework */,
+				D0F26E541816248D000F910F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F26E541816248D000F910F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E551816248D000F910F /* AppKit.framework */,
+				D0F26E561816248D000F910F /* CoreData.framework */,
+				D0F26E571816248D000F910F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0F26E581816248D000F910F /* JaviPhonePushSender */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E641816248D000F910F /* JSAppDelegate.h */,
+				D0F26E651816248D000F910F /* JSAppDelegate.m */,
+				D0F26E671816248D000F910F /* MainMenu.xib */,
+				D0F26E6A1816248D000F910F /* Images.xcassets */,
+				D0F26E591816248D000F910F /* Supporting Files */,
+			);
+			path = JaviPhonePushSender;
+			sourceTree = "<group>";
+		};
+		D0F26E591816248D000F910F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E5A1816248D000F910F /* JaviPhonePushSender-Info.plist */,
+				D0F26E5B1816248D000F910F /* InfoPlist.strings */,
+				D0F26E5E1816248D000F910F /* main.m */,
+				D0F26E601816248D000F910F /* JaviPhonePushSender-Prefix.pch */,
+				D0F26E611816248D000F910F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F26E761816248D000F910F /* JaviPhonePushSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E7C1816248D000F910F /* JaviPhonePushSenderTests.m */,
+				D0F26E771816248D000F910F /* Supporting Files */,
+			);
+			path = JaviPhonePushSenderTests;
+			sourceTree = "<group>";
+		};
+		D0F26E771816248D000F910F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E781816248D000F910F /* JaviPhonePushSenderTests-Info.plist */,
+				D0F26E791816248D000F910F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F26E4E1816248D000F910F /* JaviPhonePushSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F26E801816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSender" */;
+			buildPhases = (
+				D0F26E4B1816248D000F910F /* Sources */,
+				D0F26E4C1816248D000F910F /* Frameworks */,
+				D0F26E4D1816248D000F910F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaviPhonePushSender;
+			productName = JaviPhonePushSender;
+			productReference = D0F26E4F1816248D000F910F /* JaviPhonePushSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F26E6F1816248D000F910F /* JaviPhonePushSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F26E831816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSenderTests" */;
+			buildPhases = (
+				D0F26E6C1816248D000F910F /* Sources */,
+				D0F26E6D1816248D000F910F /* Frameworks */,
+				D0F26E6E1816248D000F910F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F26E751816248D000F910F /* PBXTargetDependency */,
+			);
+			name = JaviPhonePushSenderTests;
+			productName = JaviPhonePushSenderTests;
+			productReference = D0F26E701816248D000F910F /* JaviPhonePushSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F26E471816248D000F910F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = JavierSoto;
+				TargetAttributes = {
+					D0F26E6F1816248D000F910F = {
+						TestTargetID = D0F26E4E1816248D000F910F;
+					};
+				};
+			};
+			buildConfigurationList = D0F26E4A1816248D000F910F /* Build configuration list for PBXProject "JaviPhonePushSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F26E461816248D000F910F;
+			productRefGroup = D0F26E501816248D000F910F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F26E4E1816248D000F910F /* JaviPhonePushSender */,
+				D0F26E6F1816248D000F910F /* JaviPhonePushSenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F26E4D1816248D000F910F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E5D1816248D000F910F /* InfoPlist.strings in Resources */,
+				D0F26E6B1816248D000F910F /* Images.xcassets in Resources */,
+				D0F26E631816248D000F910F /* Credits.rtf in Resources */,
+				D0F26E691816248D000F910F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F26E6E1816248D000F910F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E7B1816248D000F910F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F26E4B1816248D000F910F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E5F1816248D000F910F /* main.m in Sources */,
+				D0F26E661816248D000F910F /* JSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F26E6C1816248D000F910F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26E7D1816248D000F910F /* JaviPhonePushSenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F26E751816248D000F910F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F26E4E1816248D000F910F /* JaviPhonePushSender */;
+			targetProxy = D0F26E741816248D000F910F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F26E5B1816248D000F910F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F26E5C1816248D000F910F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0F26E611816248D000F910F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F26E621816248D000F910F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D0F26E671816248D000F910F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F26E681816248D000F910F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D0F26E791816248D000F910F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F26E7A1816248D000F910F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F26E7E1816248D000F910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0F26E7F1816248D000F910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0F26E811816248D000F910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				INFOPLIST_FILE = "JaviPhonePushSender/JaviPhonePushSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0F26E821816248D000F910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				INFOPLIST_FILE = "JaviPhonePushSender/JaviPhonePushSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0F26E841816248D000F910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JaviPhonePushSender.app/Contents/MacOS/JaviPhonePushSender";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JaviPhonePushSenderTests/JaviPhonePushSenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0F26E851816248D000F910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JaviPhonePushSender.app/Contents/MacOS/JaviPhonePushSender";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				INFOPLIST_FILE = "JaviPhonePushSenderTests/JaviPhonePushSenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F26E4A1816248D000F910F /* Build configuration list for PBXProject "JaviPhonePushSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F26E7E1816248D000F910F /* Debug */,
+				D0F26E7F1816248D000F910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F26E801816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F26E811816248D000F910F /* Debug */,
+				D0F26E821816248D000F910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F26E831816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F26E841816248D000F910F /* Debug */,
+				D0F26E851816248D000F910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F26E471816248D000F910F /* Project object */;
+}
