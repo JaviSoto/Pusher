@@ -10,12 +10,18 @@
 		75246EEC62794302A085EE03 /* libPods-Pusher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7185B09340DD466A8DF29B97 /* libPods-Pusher.a */; };
 		D013575D18187F89008E8AB5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D013575C18187F89008E8AB5 /* Media.xcassets */; };
 		D013576018187FA7008E8AB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D013575E18187FA7008E8AB5 /* MainMenu.xib */; };
+		D013576318188163008E8AB5 /* JSMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D013576218188163008E8AB5 /* JSMenubarController.m */; };
+		D013576B18188268008E8AB5 /* JSPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D013576A18188268008E8AB5 /* JSPopupBackgroundView.m */; };
+		D013576D18188289008E8AB5 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D013576C18188289008E8AB5 /* Panel.xib */; };
+		D0135770181882FB008E8AB5 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = D013576F181882FB008E8AB5 /* Panel.m */; };
+		D01357731818831A008E8AB5 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D01357721818831A008E8AB5 /* StatusItemView.m */; };
+		D01357761818839B008E8AB5 /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01357751818839B008E8AB5 /* PanelController.m */; };
 		D0BD753218187C55006CB6C5 /* Pusher.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D0BD753118187C55006CB6C5 /* Pusher.entitlements */; };
 		D0BD753618187C76006CB6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD753518187C76006CB6C5 /* main.m */; };
 		D0D7F51318186DAF00D02CAF /* JSPushOverRAC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D7F51218186DAF00D02CAF /* JSPushOverRAC.m */; };
 		D0F26E531816248D000F910F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E521816248D000F910F /* Cocoa.framework */; };
 		D0F26E661816248D000F910F /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E651816248D000F910F /* JSAppDelegate.m */; };
-		D0F26E8818162845000F910F /* JSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E8718162845000F910F /* JSMainViewController.m */; };
+		D0F26E8818162845000F910F /* JSPushComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E8718162845000F910F /* JSPushComposeViewController.m */; };
 		D0F26E8B18162D86000F910F /* JSPushOverAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E8A18162D86000F910F /* JSPushOverAPI.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +30,17 @@
 		7185B09340DD466A8DF29B97 /* libPods-Pusher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pusher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D013575C18187F89008E8AB5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = SOURCE_ROOT; };
 		D013575F18187FA7008E8AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Pusher/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		D013576118188163008E8AB5 /* JSMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSMenubarController.h; path = Pusher/JSMenubarController.h; sourceTree = SOURCE_ROOT; };
+		D013576218188163008E8AB5 /* JSMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSMenubarController.m; path = Pusher/JSMenubarController.m; sourceTree = SOURCE_ROOT; };
+		D013576918188268008E8AB5 /* JSPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSPopupBackgroundView.h; path = Pusher/JSPopupBackgroundView.h; sourceTree = SOURCE_ROOT; };
+		D013576A18188268008E8AB5 /* JSPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSPopupBackgroundView.m; path = Pusher/JSPopupBackgroundView.m; sourceTree = SOURCE_ROOT; };
+		D013576C18188289008E8AB5 /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Panel.xib; path = Pusher/Panel.xib; sourceTree = SOURCE_ROOT; };
+		D013576E181882FB008E8AB5 /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Panel.h; path = Pusher/Panel.h; sourceTree = SOURCE_ROOT; };
+		D013576F181882FB008E8AB5 /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Panel.m; path = Pusher/Panel.m; sourceTree = SOURCE_ROOT; };
+		D01357711818831A008E8AB5 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusItemView.h; path = Pusher/StatusItemView.h; sourceTree = SOURCE_ROOT; };
+		D01357721818831A008E8AB5 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusItemView.m; path = Pusher/StatusItemView.m; sourceTree = SOURCE_ROOT; };
+		D01357741818839B008E8AB5 /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanelController.h; path = Pusher/PanelController.h; sourceTree = SOURCE_ROOT; };
+		D01357751818839B008E8AB5 /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanelController.m; path = Pusher/PanelController.m; sourceTree = SOURCE_ROOT; };
 		D0BD753118187C55006CB6C5 /* Pusher.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Pusher.entitlements; path = Pusher/Pusher.entitlements; sourceTree = SOURCE_ROOT; };
 		D0BD753318187C5D006CB6C5 /* Pusher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pusher-Info.plist"; path = "Pusher/Pusher-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D0BD753518187C76006CB6C5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Pusher/main.m; sourceTree = SOURCE_ROOT; };
@@ -38,8 +55,8 @@
 		D0F26E641816248D000F910F /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSAppDelegate.h; path = Pusher/JSAppDelegate.h; sourceTree = "<group>"; };
 		D0F26E651816248D000F910F /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JSAppDelegate.m; path = Pusher/JSAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		D0F26E711816248D000F910F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D0F26E8618162845000F910F /* JSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSMainViewController.h; path = Pusher/JSMainViewController.h; sourceTree = "<group>"; };
-		D0F26E8718162845000F910F /* JSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSMainViewController.m; path = Pusher/JSMainViewController.m; sourceTree = SOURCE_ROOT; };
+		D0F26E8618162845000F910F /* JSPushComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSPushComposeViewController.h; path = Pusher/JSPushComposeViewController.h; sourceTree = "<group>"; };
+		D0F26E8718162845000F910F /* JSPushComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSPushComposeViewController.m; path = Pusher/JSPushComposeViewController.m; sourceTree = SOURCE_ROOT; };
 		D0F26E8918162D86000F910F /* JSPushOverAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSPushOverAPI.h; path = Pusher/JSPushOverAPI.h; sourceTree = "<group>"; };
 		D0F26E8A18162D86000F910F /* JSPushOverAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSPushOverAPI.m; path = Pusher/JSPushOverAPI.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -72,17 +89,28 @@
 			isa = PBXGroup;
 			children = (
 				D013575E18187FA7008E8AB5 /* MainMenu.xib */,
+				D013576918188268008E8AB5 /* JSPopupBackgroundView.h */,
+				D013576A18188268008E8AB5 /* JSPopupBackgroundView.m */,
+				D013576C18188289008E8AB5 /* Panel.xib */,
+				D013576E181882FB008E8AB5 /* Panel.h */,
+				D013576F181882FB008E8AB5 /* Panel.m */,
+				D01357711818831A008E8AB5 /* StatusItemView.h */,
+				D01357721818831A008E8AB5 /* StatusItemView.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
 		};
-		D0D7F51018186D9400D02CAF /* ViewControllers */ = {
+		D0D7F51018186D9400D02CAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D0F26E8618162845000F910F /* JSMainViewController.h */,
-				D0F26E8718162845000F910F /* JSMainViewController.m */,
+				D013576118188163008E8AB5 /* JSMenubarController.h */,
+				D013576218188163008E8AB5 /* JSMenubarController.m */,
+				D01357741818839B008E8AB5 /* PanelController.h */,
+				D01357751818839B008E8AB5 /* PanelController.m */,
+				D0F26E8618162845000F910F /* JSPushComposeViewController.h */,
+				D0F26E8718162845000F910F /* JSPushComposeViewController.m */,
 			);
-			name = ViewControllers;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		D0F26E461816248D000F910F = {
@@ -130,7 +158,7 @@
 				D0F26E641816248D000F910F /* JSAppDelegate.h */,
 				D0F26E651816248D000F910F /* JSAppDelegate.m */,
 				D0D7F50F18186D8900D02CAF /* UI */,
-				D0D7F51018186D9400D02CAF /* ViewControllers */,
+				D0D7F51018186D9400D02CAF /* Controllers */,
 				D0D7F50E18186D8100D02CAF /* PushOver */,
 				D0F26E591816248D000F910F /* Supporting Files */,
 				D013575C18187F89008E8AB5 /* Media.xcassets */,
@@ -215,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D013576D18188289008E8AB5 /* Panel.xib in Resources */,
 				D0BD753218187C55006CB6C5 /* Pusher.entitlements in Resources */,
 				D013575D18187F89008E8AB5 /* Media.xcassets in Resources */,
 				D013576018187FA7008E8AB5 /* MainMenu.xib in Resources */,
@@ -262,10 +291,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BD753618187C76006CB6C5 /* main.m in Sources */,
+				D013576318188163008E8AB5 /* JSMenubarController.m in Sources */,
+				D01357761818839B008E8AB5 /* PanelController.m in Sources */,
 				D0F26E8B18162D86000F910F /* JSPushOverAPI.m in Sources */,
+				D01357731818831A008E8AB5 /* StatusItemView.m in Sources */,
+				D0135770181882FB008E8AB5 /* Panel.m in Sources */,
 				D0D7F51318186DAF00D02CAF /* JSPushOverRAC.m in Sources */,
 				D0F26E661816248D000F910F /* JSAppDelegate.m in Sources */,
-				D0F26E8818162845000F910F /* JSMainViewController.m in Sources */,
+				D013576B18188268008E8AB5 /* JSPopupBackgroundView.m in Sources */,
+				D0F26E8818162845000F910F /* JSPushComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63194C8986CE487D91766A9D /* Pods-Pusher.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Pusher/Pusher.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -377,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63194C8986CE487D91766A9D /* Pods-Pusher.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Pusher/Pusher.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";

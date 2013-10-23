@@ -1,16 +1,16 @@
 //
-//  JSMainViewController.m
+//  JSPushComposeViewController.m
 //  Pusher
 //
 //  Created by Javier Soto on 10/21/13.
 //  Copyright (c) 2013 JavierSoto. All rights reserved.
 //
 
-#import "JSMainViewController.h"
+#import "JSPushComposeViewController.h"
 
 #import "JSPushOverRAC.h"
 
-@interface JSMainViewController ()
+@interface JSPushComposeViewController ()
 
 @property (weak) IBOutlet NSTextField *titleTextField;
 @property (strong) IBOutlet NSTextView *messageTextView;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation JSMainViewController
+@implementation JSPushComposeViewController
 
 - (void)setView:(NSView *)view
 {

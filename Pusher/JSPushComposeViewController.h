@@ -1,5 +1,5 @@
 //
-//  JSMainViewController.h
+//  JSPushComposeViewController.h
 //  Pusher
 //
 //  Created by Javier Soto on 10/21/13.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface JSMainViewController : NSViewController
+@interface JSPushComposeViewController : NSViewController
 
 @end
