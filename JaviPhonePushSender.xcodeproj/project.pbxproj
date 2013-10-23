@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCE0273A5A63449FB514DE69 /* libPods-JaviPhonePushSender.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570E2EF82ED945CDB828FDBA /* libPods-JaviPhonePushSender.a */; };
+		D0D7F51318186DAF00D02CAF /* JSPushOverRAC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D7F51218186DAF00D02CAF /* JSPushOverRAC.m */; };
 		D0F26E531816248D000F910F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E521816248D000F910F /* Cocoa.framework */; };
 		D0F26E5D1816248D000F910F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E5B1816248D000F910F /* InfoPlist.strings */; };
 		D0F26E5F1816248D000F910F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E5E1816248D000F910F /* main.m */; };
@@ -18,6 +20,8 @@
 		D0F26E731816248D000F910F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F26E521816248D000F910F /* Cocoa.framework */; };
 		D0F26E7B1816248D000F910F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F26E791816248D000F910F /* InfoPlist.strings */; };
 		D0F26E7D1816248D000F910F /* JaviPhonePushSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E7C1816248D000F910F /* JaviPhonePushSenderTests.m */; };
+		D0F26E8818162845000F910F /* JSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E8718162845000F910F /* JSMainViewController.m */; };
+		D0F26E8B18162D86000F910F /* JSPushOverAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F26E8A18162D86000F910F /* JSPushOverAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570E2EF82ED945CDB828FDBA /* libPods-JaviPhonePushSender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JaviPhonePushSender.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79273912DB2B45F28324CE06 /* Pods-JaviPhonePushSender.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaviPhonePushSender.xcconfig"; path = "Pods/Pods-JaviPhonePushSender.xcconfig"; sourceTree = "<group>"; };
+		D0C6A77E181851710054C23A /* JaviPhonePushSender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JaviPhonePushSender.entitlements; sourceTree = "<group>"; };
+		D0D7F51118186DAF00D02CAF /* JSPushOverRAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPushOverRAC.h; sourceTree = "<group>"; };
+		D0D7F51218186DAF00D02CAF /* JSPushOverRAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPushOverRAC.m; sourceTree = "<group>"; };
 		D0F26E4F1816248D000F910F /* JaviPhonePushSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaviPhonePushSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F26E521816248D000F910F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0F26E551816248D000F910F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +59,10 @@
 		D0F26E781816248D000F910F /* JaviPhonePushSenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JaviPhonePushSenderTests-Info.plist"; sourceTree = "<group>"; };
 		D0F26E7A1816248D000F910F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0F26E7C1816248D000F910F /* JaviPhonePushSenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JaviPhonePushSenderTests.m; sourceTree = "<group>"; };
+		D0F26E8618162845000F910F /* JSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMainViewController.h; sourceTree = "<group>"; };
+		D0F26E8718162845000F910F /* JSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMainViewController.m; sourceTree = "<group>"; };
+		D0F26E8918162D86000F910F /* JSPushOverAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPushOverAPI.h; sourceTree = "<group>"; };
+		D0F26E8A18162D86000F910F /* JSPushOverAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPushOverAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F26E531816248D000F910F /* Cocoa.framework in Frameworks */,
+				CCE0273A5A63449FB514DE69 /* libPods-JaviPhonePushSender.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +87,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0D7F50E18186D8100D02CAF /* PushOver */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E8918162D86000F910F /* JSPushOverAPI.h */,
+				D0F26E8A18162D86000F910F /* JSPushOverAPI.m */,
+				D0D7F51118186DAF00D02CAF /* JSPushOverRAC.h */,
+				D0D7F51218186DAF00D02CAF /* JSPushOverRAC.m */,
+			);
+			name = PushOver;
+			sourceTree = "<group>";
+		};
+		D0D7F50F18186D8900D02CAF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E671816248D000F910F /* MainMenu.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D0D7F51018186D9400D02CAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26E8618162845000F910F /* JSMainViewController.h */,
+				D0F26E8718162845000F910F /* JSMainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D0F26E461816248D000F910F = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +122,7 @@
 				D0F26E761816248D000F910F /* JaviPhonePushSenderTests */,
 				D0F26E511816248D000F910F /* Frameworks */,
 				D0F26E501816248D000F910F /* Products */,
+				79273912DB2B45F28324CE06 /* Pods-JaviPhonePushSender.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +141,7 @@
 				D0F26E521816248D000F910F /* Cocoa.framework */,
 				D0F26E711816248D000F910F /* XCTest.framework */,
 				D0F26E541816248D000F910F /* Other Frameworks */,
+				570E2EF82ED945CDB828FDBA /* libPods-JaviPhonePushSender.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +161,9 @@
 			children = (
 				D0F26E641816248D000F910F /* JSAppDelegate.h */,
 				D0F26E651816248D000F910F /* JSAppDelegate.m */,
-				D0F26E671816248D000F910F /* MainMenu.xib */,
+				D0D7F50F18186D8900D02CAF /* UI */,
+				D0D7F51018186D9400D02CAF /* ViewControllers */,
+				D0D7F50E18186D8100D02CAF /* PushOver */,
 				D0F26E6A1816248D000F910F /* Images.xcassets */,
 				D0F26E591816248D000F910F /* Supporting Files */,
 			);
@@ -127,6 +173,7 @@
 		D0F26E591816248D000F910F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0C6A77E181851710054C23A /* JaviPhonePushSender.entitlements */,
 				D0F26E5A1816248D000F910F /* JaviPhonePushSender-Info.plist */,
 				D0F26E5B1816248D000F910F /* InfoPlist.strings */,
 				D0F26E5E1816248D000F910F /* main.m */,
@@ -161,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0F26E801816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSender" */;
 			buildPhases = (
+				E64542156E224B46AACDCC9E /* Check Pods Manifest.lock */,
 				D0F26E4B1816248D000F910F /* Sources */,
 				D0F26E4C1816248D000F910F /* Frameworks */,
 				D0F26E4D1816248D000F910F /* Resources */,
+				547DB44D577C41D6A7F4BF67 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +251,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = JavierSoto;
 				TargetAttributes = {
+					D0F26E4E1816248D000F910F = {
+						DevelopmentTeam = 6V6XY979JQ;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					D0F26E6F1816248D000F910F = {
 						TestTargetID = D0F26E4E1816248D000F910F;
 					};
@@ -248,13 +305,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		547DB44D577C41D6A7F4BF67 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-JaviPhonePushSender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64542156E224B46AACDCC9E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0F26E4B1816248D000F910F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F26E8B18162D86000F910F /* JSPushOverAPI.m in Sources */,
+				D0D7F51318186DAF00D02CAF /* JSPushOverRAC.m in Sources */,
 				D0F26E5F1816248D000F910F /* main.m in Sources */,
 				D0F26E661816248D000F910F /* JSAppDelegate.m in Sources */,
+				D0F26E8818162845000F910F /* JSMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,26 +475,46 @@
 		};
 		D0F26E811816248D000F910F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79273912DB2B45F28324CE06 /* Pods-JaviPhonePushSender.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JaviPhonePushSender/JaviPhonePushSender.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "JaviPhonePushSender/JaviPhonePushSender-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WARNING_LDFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		D0F26E821816248D000F910F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79273912DB2B45F28324CE06 /* Pods-JaviPhonePushSender.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JaviPhonePushSender/JaviPhonePushSender.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JaviPhonePushSender/JaviPhonePushSender-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "JaviPhonePushSender/JaviPhonePushSender-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WARNING_LDFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +578,7 @@
 				D0F26E821816248D000F910F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F26E831816248D000F910F /* Build configuration list for PBXNativeTarget "JaviPhonePushSenderTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +587,7 @@
 				D0F26E851816248D000F910F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
